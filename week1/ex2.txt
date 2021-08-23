@@ -1,0 +1,1000 @@
+    8  cd /admin-of-bot
+    9  ls
+   10  cd admin-of-bot
+   11  ls
+   12  cd /admin-of-bot
+   13  cd /home/admin-of-bot
+   14  ls
+   15  clear
+   16  cd
+   17  clear
+   18  cd
+   19  ls .ssh
+   20  sudo chmod 700 ~/.ssh/
+   21  sudo chmod 600 ~/.ssh/
+   22  sudo chmod 700 ~/.ssh/*
+   23  sudo chmod 600 ~/.ssh/*
+   24  exit
+   25  clear
+   26  cd
+   27  sudo apt install ufw
+   28  exit
+   29  clear
+   30  cd
+   31  mcdir server
+   32  mkdir server
+   33  ls
+   34  clear
+   35  cd server
+   36  ls
+   37  sudo ufw allow ssh
+   38  sudo ufw allow 5000
+   39  sudo ufw allow enable
+   40  sudo ufw enable
+   41  sudo ufw status
+   42  clear
+   43  python3
+   44  clear
+   45  sudo apt install python3-pip
+   46  sudo apt install python3-venv
+   47  clear
+   48  python3 -m venv venv
+   49  ls
+   50  source venv/bin/activate
+   51  clear
+   52  pip install Flask
+   53  export FLASK_APP=MAIN
+   54  export FLASK_DEBUG=1
+   55  flask run
+   56  export FLASK_APP=main
+   57  flask run
+   58  clear
+   59  flask run --host=0.0.0.0
+   60  clear
+   61  flask run --host=0.0.0.0
+   62  clear
+   63  localhost
+   64  cd server
+   65  ls
+   66  cd
+   67  mkdir cert
+   68  cd cert
+   69  openssl req -newkey rsa:2048 -sha256 -nodes -keyout vkapi.key -x509 -days 365 -out vkapi.crt -subj "/C=RU/ST=Saint Petersburg/L=Saint Petersburg/O=VK API Club/CN=vkapi
+   70  exit
+   71  ls
+   72  openssl req -newkey rsa:2048 -sha256 -nodes -keyout vkapi.key -x509 -days 365 -out vkapi.crt -subj "/C=RU/ST=Saint Petersburg/L=Saint Petersburg/O=VK API Club/CN=vkapi
+   73  "
+   74  ls
+   75  openssl pkcs12 -export -in vkapi.crt -name "Test" -descert -inkey vkapi.key -out vkapi.p12
+   76  ls
+   77  cls
+   78  clear
+   79  cd /etc
+   80  ls
+   81  cd nginx
+   82  ls
+   83  cd sites-available
+   84  ls
+   85  cd
+   86  clear
+   87  cd server
+   88  source venv/bin/activa
+   89  cd /etc
+   90  cd nginx
+   91  cd sites-available
+   92  ls
+   93  sudo ls
+   94  sudo nano tempserver
+   95  cd
+   96  sudo nano /etc/nginx/sites-enabled/tempserver
+   97  sudo systemctl restart nginx
+   98  sudo nginx -t
+   99  sudo nano /etc/nginx/sites-enabled/tempserver
+  100  clear
+  101  openssl pkcs12 -export -in vkapi.crt -name "Test" -descert -inkey vkapi.key -out vkapi.p12
+  102  cd cert
+  103  openssl pkcs12 -export -in vkapi.crt -name "Test" -descert -inkey vkapi.key -out vkapi.p12
+  104  ls
+  105  clear
+  106  cd /server
+  107  cd
+  108  cd server
+  109  source venv/bin/activate
+  110  gunicorn -w 3 main:app
+  111  sudo systemctl restart nginx
+  112  gunicorn -w 3 main:app
+  113  sudo nginx -t
+  114  netstat -tulpn
+  115  pkill -9 python
+  116  netstat -tulpn
+  117  sudo pkill -9 python
+  118  netstat -tulpn
+  119  sudo pkill -9 python
+  120  netstat -tulpn
+  121  exit
+  122  clear
+  123  sudo pkill -9 python
+  124  netstat -tulpn
+  125  reboot
+  126  sudo reboot
+  127  clear\
+  128  clear
+  129  ls
+  130  cd server
+  131  source venv/bin/activate
+  132  gunicorn -w 3 main:app
+  133  clear
+  134  sudo certbot --nginx
+  135  sudo nano etc/nginx/sites-enabled/tempserver
+  136  sudo nano /etc/nginx/sites-enabled/tempserver
+  137  clear
+  138  sudo nano /etc/nginx/sites-enabled/tempserver
+  139  clear
+  140  sudo certbot --nginx
+  141  exit
+  142  clear
+  143  sudo nano /etc/nginx/sites-enabled/tempserver
+  144  source server/venv/bin/activate
+  145  cd server
+  146  gunicorn -w 3 main:app
+  147  exit
+  148  netstat -tulpn
+  149  clear
+  150  cd server
+  151  source venv/bin/activate
+  152  gunicorn -w 3 main:app
+  153  ls
+  154  rm url_cert.pem
+  155  rm url_private.key
+  156  ls
+  157  cd
+  158  rm cert
+  159  del cert
+  160  rmdir cert
+  161  rm -R cert
+  162  ls
+  163  clear
+  164  sudo snap install core; sudo snap refresh core
+  165  lsb_release -a
+  166  sudo snap install --classic certbot
+  167  sudo snapd install --classic certbot
+  168  sudo apt install snapd
+  169  sudo snap install core; sudo snap refresh core
+  170  sudo snap install --classic certbot
+  171  sudo ln -s /snap/bin/certbot /usr/bin/certbot
+  172  sudo certbot --nginx
+  173  cd /etc/nginx/server-enabled
+  174  cd /etc/nginx
+  175  ls
+  176  sudo nano sites-enabled/tempserver
+  177  clear
+  178  sudo certbot --nginx
+  179  cd
+  180  sudo nano etc/nginx/sites-enabled/tempserver
+  181  sudo nano /etc/nginx/sites-enabled/tempserver
+  182  clear
+  183  sudo certbot --nginx
+  184  sudo nano /etc/nginx/sites-enabled/tempserver
+  185  clear
+  186  sudo certbot --nginx
+  187  cls
+  188  clear
+  189  sudo nano /etc/nginx/sites-enabled/tempserver
+  190  sudo certbot --nginx
+  191  clear
+  192  sudo nano /etc/nginx/sites-enabled/tempserver
+  193  source /server/venv/bin/activate
+  194  source server/venv/bin/activate
+  195  cd server
+  196  gunicor -w 3 main:app
+  197  gunicorn -w 3 main:app
+  198  clear
+  199  netstat -tulpn
+  200  kill 5816
+  201  netstat -tulpn
+  202  cls
+  203  clear
+  204  source /server/venv/bin/activate
+  205  source server/venv/bin/activate
+  206  clear
+  207  cd server
+  208  gunicorn -w 3 main:app
+  209  netstat -tulpn
+  210  kill 6066
+  211  netstat -tulpn
+  212  clear
+  213  source server/venv/bin/activate
+  214  sudo certbot --nginx
+  215  sudo nano etc/nginx/sites-enabled/tempserver
+  216  sudo nano /etc/nginx/sites-enabled/tempserver
+  217  clear
+  218  nginx -t
+  219  sudo nano /etc/nginx/sites-enabled/tempserver
+  220  nginx -t
+  221  sudo nano /etc/nginx/sites-enabled/tempserver
+  222  nginx -t
+  223  cd /etc/nginx/sites-enabled/
+  224  ls
+  225  rm tempserver.save
+  226  sudo rm tempserver.save
+  227  ls
+  228  cd
+  229  clear
+  230  nginx -t
+  231  sudo nano /etc/nginx/sites-enabled/tempserver
+  232  nginx -t
+  233  sudo nginx -t
+  234  clear
+  235  sudo systemctl restart nginx
+  236  sudo certbot --nginx
+  237  sudo nano /etc/nginx/sites-enabled/tempserver
+  238  clear
+  239  cd /etc/letsencrypt/live/freelancevkbot.ru
+  240  sudo cd /etc/letsencrypt/live/freelancevkbot.ru
+  241  sudo certbot certificates
+  242  sudo certbot certificates --webroot 
+  243  ls
+  244  cd server
+  245  ls
+  246  cd
+  247  cd /etce/letsencrypt
+  248  cd /etc/letsencrypt
+  249  ls
+  250  cd csr
+  251  ls
+  252  cd $$ clear
+  253  clear
+  254  cd
+  255  sudo certbot -h
+  256  clear
+  257  cd server
+  258  cd
+  259  clear
+  260  sudo certbot certificates
+  261  sudo nano /etc/nginx/sites-enabled/tempserver
+  262  openssl pkcs12 -export -out certificate.p12 -inkey /etc/letsencrypt/live/freelancevkbot.ru/privkey.pem -in /etc/letsencrypt/live/freelancevkbot.ru/cert.pem -certfile /etc/lets
+  263  cd /etc/letsencrypt/live
+  264  cd /etc/letsencrypt
+  265  ls
+  266  sudo cd live
+  267  sudo cd /live
+  268  cd /live
+  269  pwd
+  270  clear
+  271  cd
+  272  pwd
+  273  exit
+  274  clear
+  275  source server/venv/bin/activate
+  276  cd server
+  277  gunicorn -w 3 main:app
+  278  gunicorn -w 3 -reload True main:app
+  279  gunicorn -w 3 --reload True main:app
+  280  clear
+  281  gunicorn -w 3 --reload=True main:app
+  282  gunicorn -w 3 --reload True main:app
+  283  clear
+  284  gunicorn -w 3 --debug main:app
+  285  gunicorn -w 3 --reload=True main:app
+  286  gunicorn -w 3 --reload main:app
+  287  gunicorn -help
+  288  clear
+  289  gunicorn -w 3 --reload main:app
+  290  source server/venv/bin/activate
+  291  gunicorn -w 3 --debug main:app
+  292  clear
+  293  sudo nginx -t
+  294  netstat -tulpn
+  295  kill 7063
+  296  cd server
+  297  gunicorn -w 3 --reload main:app
+  298  netstat -tulpn
+  299  kill 7514
+  300  netstat -tulpn
+  301  clear
+  302  mkdir configs
+  303  ls
+  304  python3
+  305  clear
+  306  source server/venv/bin/activate
+  307  cd server
+  308  source server/venv/bin/activate
+  309  cd
+  310  source server/venv/bin/activate
+  311  ls
+  312  nano test.sh
+  313  cd
+  314  ./test.sh
+  315  test.sh
+  316  nano test.sh
+  317  chmod ugo+x test.sh
+  318  ls -l test.sh
+  319  ./test.sh
+  320  clear
+  321  nano test.sh
+  322  ./test.sh
+  323  ls
+  324  cd server
+  325  ls
+  326  cd
+  327  nano test.sh
+  328  ./test.sh
+  329  clear
+  330  nano test.sh
+  331  clear
+  332  ./test.sh
+  333  nano test.sh
+  334  pwd
+  335  nano test.sh
+  336  clear
+  337  ./test.sh
+  338  nano test.sh
+  339  ./test.sh
+  340  netstat -tulpn
+  341  kill 27059
+  342  ./test.sh
+  343  netstat -tulpn
+  344  kill 28422
+  345  exit
+  346  clear
+  347  cd
+  348  ls
+  349  source server/venv/bin/activate
+  350  cd server
+  351  ls
+  352  rm -R views_functions
+  353  ls
+  354  python3 config.py
+  355  clear
+  356  python3 main.py
+  357  ls
+  358  cd viewsFunctions
+  359  ls
+  360  cd
+  361  cd server
+  362  nano appCreator.py
+  363  nano viewsFunctions/addViews.py
+  364  clear
+  365  python3 main.py
+  366  clear
+  367  python3 main.py
+  368  clear
+  369  python3 main.py
+  370  cd
+  371  ls
+  372  source
+  373  source -h
+  374  source ---help
+  375  exit
+  376  clear
+  377  rm -R server
+  378  rm -R configs
+  379  ls
+  380  rm test.sh
+  381  clear
+  382  mkdir freelancebot
+  383  ls
+  384  cd freelancebot
+  385  python -m venv venv
+  386  python3 -m venv venv
+  387  ls
+  388  clear
+  389  source venv/bin/activate
+  390  clear
+  391  ls
+  392  cd server
+  393  ls
+  394  cd
+  395  cd freelancebot
+  396  cd configs
+  397  pwd
+  398  ls
+  399  cd
+  400  cd freelancebot
+  401  ls
+  402  cd server
+  403  ls
+  404  pip install flask
+  405  clear
+  406  ls
+  407  python3 config.py
+  408  clear
+  409  ls
+  410  python3 config.py
+  411  python3 main.py
+  412  cd
+  413  cd freelancebot
+  414  ls
+  415  python3
+  416  clear
+  417  python3 server/config.py
+  418  python3 server/main.py
+  419  python3
+  420  ps -ef | grep python
+  421  clear
+  422  cd server
+  423  ls
+  424  python3 config.py
+  425  python3
+  426  clear
+  427  cd 
+  428  cd freelancebot
+  429  ls
+  430  cd venv
+  431  ls
+  432  cd bin
+  433  ls
+  434  python
+  435  cd
+  436  cd freelancebot/venv
+  437  python
+  438  св
+  439  cd
+  440  cd frelancebot
+  441  cd freelancebot
+  442  clear
+  443  ls
+  444  python server/main.py
+  445  python3 server/main.py
+  446  python
+  447  cd server
+  448  python
+  449  cd
+  450  ls
+  451  python
+  452  clear
+  453  python server/main.py
+  454  python
+  455  cd server
+  456  ls
+  457  python
+  458  python __init__
+  459  python __init__.py
+  460  python
+  461  clear
+  462  cd
+  463  cd freelancebot
+  464  python /server/main.py
+  465  python server/main.py
+  466  PYTHONPATH
+  467  python
+  468  clear
+  469  echo $PYTHONPATH
+  470  pwd
+  471  export PYTHONPATH=$PYTHONPATH:/home/admin-of-bot/freelancebot
+  472  echo $PYTHONPATH
+  473  cd server
+  474  python main.py
+  475  python
+  476  ls
+  477  cd viewsFunctions
+  478  ls
+  479  python
+  480  ls
+  481  python addViews.py
+  482  cd
+  483  cd /freelancebot/server
+  484  cd freelancebot/server
+  485  python viewsFunctions/addViews.py
+  486  python main.py
+  487  clear
+  488  cd
+  489  cd freelancebot
+  490  cd server
+  491  PYTHONPATH=$(pwd)
+  492  PYTHONPATH
+  493  echo PYTHONPATH
+  494  python
+  495  python main.py
+  496  cd
+  497  cd freelancebot
+  498  python server/main.py
+  499  python main.py
+  500  clear
+  501  cd server
+  502  ls
+  503  rm __init__.py
+  504  ls
+  505  cd botEngine
+  506  ls
+  507  rm __init__.py
+  508  ls
+  509  cd
+  510  cd freelancebot/server
+  511  ls
+  512  rm viewsFunctions/__init__.py
+  513  ls
+  514  cd viewsFunctions
+  515  ls
+  516  cd
+  517  cd freelancebot/server
+  518  ls
+  519  python main.py
+  520  nano __init__.py
+  521  ls
+  522  python main.py
+  523  ls
+  524  rm __init__.py
+  525  ls
+  526  cd
+  527  cd freelancebot
+  528  python server/main.py
+  529  python
+  530  cd server
+  531  python
+  532  home/admin-of-bot/freelancebot/venv/bin/python
+  533  home/admin-of-bot/freelancebot/venv/bin/python.exe
+  534  cd
+  535  cd freealncebot
+  536  cd freelancebot
+  537  cd venv
+  538  ls
+  539  cd bin
+  540  ls
+  541  pwd
+  542  /home/admin-of-bot/freelancebot/venv/bin/python
+  543  cd
+  544  cd freelancebot/server
+  545  /home/admin-of-bot/freelancebot/venv/bin/python
+  546  clear
+  547  cd
+  548  . freelancebot/venv/bin/diactivate
+  549  . freelancebot/venv/bin/deactivate
+  550  deactivate
+  551  clear
+  552  . freelancebot/venv/bin/activate
+  553  cd freelancebot
+  554  cd server
+  555  python main.py
+  556  pwd
+  557  export PYTHONPATH=/home/admin-of-bot/freelancebot/server
+  558  export PYTHONPATH=/home/admin-of-bot/freelancebot
+  559  python
+  560  export PYTHONPATH=$(PYTHONPATH):/home/admin-of-bot/freelancebot
+  561  $(PYTHONPATH)
+  562  echo $(PYTHONPATH)
+  563  echo $PYTHONPATH
+  564  export PYTHONPATH=/home/admin-of-bot/freelancebot/server
+  565  echo $PYTHONPATH
+  566  export PYTHONPATH=$PYTHONPATH:/home/admin-of-bot/freelancebot
+  567  echo $PYTHONPATH
+  568  clear
+  569  python
+  570  python main.py
+  571  exit
+  572  clear
+  573  $PYTHONPATH
+  574  source freelancebot/venv/bin/activate
+  575  $PYTHONPATH
+  576  echo $PYTHONPATH
+  577  python 
+  578  clear
+  579  sudo nano freelancebot/venv/bin/postactivate
+  580  cd
+  581  cd freelancebot
+  582  cd venv
+  583  ls
+  584  deactivate
+  585  source activate
+  586  $PYTHONPATH
+  587  rm postactivate
+  588  ls
+  589  clear
+  590  cd
+  591  cd freelancebot
+  592  ls
+  593  python setup.py
+  594  python server/main.py
+  595  python
+  596  nano setup.py
+  597  clear
+  598  python setup.py
+  599  python server/main.py
+  600  ls
+  601  cd server
+  602  ls
+  603  rm __init__.py
+  604  cd
+  605  cd freelancebot
+  606  ls
+  607  rm setup.py
+  608  ls
+  609  cd server
+  610  ls
+  611  rm __init__.py
+  612  ls
+  613  python main.py
+  614  ls
+  615  cd viewsFunctions
+  616  ls
+  617  nano botView.py
+  618  clear
+  619  cd
+  620  cd freelancebot/server
+  621  python main.py
+  622  clear
+  623  python main.py
+  624  clear
+  625  python main.py
+  626  clear && python main.py
+  627  mongo
+  628  clear
+  629  source freelancebot/venv/bin/activate
+  630  cd freelancebot/server
+  631  python main.py
+  632  nano main.py
+  633  clear
+  634  python main.py
+  635  clear
+  636  python main.py
+  637  clear
+  638  python main.py
+  639  clear
+  640  python main.py
+  641  [A
+  642  python main.py
+  643  clear
+  644  python main.py
+  645  clear
+  646  python main.py
+  647  clear
+  648  clear && python main.py
+  649  cd freelancebot/server
+  650  source venv/bin/activate
+  651  python main.py
+  652  cd freelancebot/server
+  653  clear
+  654  ls
+  655  source venv/bin/activate
+  656  ls
+  657  python main.py
+  658  clear
+  659  python main.py
+  660  clear && python main.py
+  661  clear
+  662  cd freelancebot/server
+  663  source venv/bin/activate
+  664  python main.py
+  665  cd freelancebot/server
+  666  source venv/bin/activate
+  667  python main.py
+  668  clear
+  669  python main.py
+  670  python
+  671  python3
+  672  python3 main.py
+  673  python
+  674  clear
+  675  sudo apt-get install python3.9
+  676  python
+  677  python3
+  678  deactivate
+  679  python
+  680  python3
+  681  sudo apt update
+  682  sudo apt install software-properties-common
+  683  sudo add-apt-repository ppa:deadsnakes/ppa
+  684  sudo apt-get install python3.9
+  685  which python3
+  686  python3
+  687  python3.9 --version
+  688  python3.9
+  689  clear
+  690  source venv/bin/activate
+  691  python3.9
+  692  python3.9 main.py
+  693  pip install typing
+  694  python3.9 main.py
+  695  ls
+  696  deactivate
+  697  clear
+  698  rm -R venv
+  699  ls
+  700  python3.9 -m venv venv
+  701  python 3.9
+  702  python3.9
+  703  python3
+  704  where python3.9
+  705  where python3
+  706  which python3
+  707  which python3.9
+  708  python3.9 -m pip install --upgrade pip
+  709  pip install --upgrade pip
+  710  pip install typing
+  711  python3.9
+  712  python3.9 get-pip.py
+  713  curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+  714  cd
+  715  sudo apt  install curl
+  716  sudo snap install curl
+  717  curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+  718  ls
+  719  python3.9 get-pip.py
+  720  sudo apt install python3
+  721  sudo apt --fix-broken install python3
+  722  clear
+  723  sudo apt install python3-pip
+  724  lsb_release -a
+  725  sudo apt install software-properties-common
+  726  sudo apt install libpython3.9
+  727  sudo apt install libpython3.9-stdlib
+  728  sudo apt install software-properties-common
+  729  clear
+  730  sudo add-apt-repository ppa:deadsnakes/ppa
+  731  claer
+  732  clear
+  733  sudo apt install python3.9
+  734  python3.9 --version
+  735  python3.9
+  736  clear
+  737  cd freelancebot/server
+  738  source venv/bin/activate
+  739  python3.9 -m venv venv
+  740  sudo apt install python3-pip
+  741  python3.9 -m venv venv
+  742  ls
+  743  source venv/bin/activate
+  744  cd venv
+  745  ls
+  746  cd bin
+  747  ls
+  748  cd ~/freelnacebot/server
+  749  rm -R venv
+  750  cd ~/freelnacebot/server
+  751  cd ~/freelancebot/server
+  752  rm -R venv
+  753  ls
+  754  clear
+  755  python3.9 -m venv venv
+  756  sudo apt install python3.9-venv
+  757  python3.9 -m venv venv
+  758  clear
+  759  python3.9 -m venv venv
+  760  source venv/bin/activate
+  761  ls
+  762  pip3 install flask
+  763  pip3 install --upgrade pip3
+  764  pip3 install --upgrade pip
+  765  clear
+  766  pip3 -version
+  767  pip3 --version
+  768  pip3 install pymongo
+  769  pip3 install vk_api
+  770  clear
+  771  pip3 install aiohttp
+  772  clear
+  773  python3.9 main.py
+  774  ls
+  775  python3.9 main.py
+  776  python3 main.py
+  777  nano main.py
+  778  python3.9 main.py
+  779  python3.9
+  780  clear
+  781  python3.9 main.py
+  782  clear
+  783  python3.9 main.py
+  784  clear
+  785  python3.9 main.py
+  786  clear
+  787  python3.9 main.py
+  788  netstat -tulpn
+  789  kill 110481
+  790  clear
+  791  python3.9 main.py
+  792  netstat -tulpn
+  793  kill 110481
+  794  netstat -tulpn
+  795  sudo kill 110481
+  796  netstat -tulpn
+  797  clear
+  798  reboot
+  799  sudo reboot
+  800  clear
+  801  cd freelancebot/sever
+  802  cd freelancebot/server
+  803  source venve/bin/activate
+  804  source venv/bin/activate
+  805  python3.9 main.py
+  806  pip install motor
+  807  clear
+  808  python3.9 main.py
+  809  clear
+  810  python3.9 main.py
+  811  clear
+  812  python3.9 main.py
+  813  clear
+  814  python3.9 main.py
+  815  clear
+  816  python3.9 main.py
+  817  clear
+  818  python3.9 main.py
+  819  clear && python3.9 main.py
+  820  mongo
+  821  clear
+  822  clear && python3.9 main.py
+  823  mongo
+  824  clear && python3.9 main.py
+  825  mongo
+  826  clear && python3.9 main.py
+  827  mongo
+  828  clear && python3.9 main.py
+  829  mongo
+  830  clear && python3.9 main.py
+  831  mongo
+  832  clear && python3.9 main.py
+  833  mongo
+  834  clear && python3.9 main.py
+  835  mongo
+  836  clear
+  837  cd configs
+  838  ls
+  839  python3.9 vkConfig.py
+  840  cd ~/freelancebot/server
+  841  ls
+  842  cd configs
+  843  ls
+  844  python3.9 vkConfig.py
+  845  nano vkConfig.py
+  846  clear
+  847  cd ~/freelancebot/server
+  848  ls
+  849  cd configs
+  850  ls
+  851  nano vkConfig.py
+  852  ls
+  853  python3.9 vkConfig.py
+  854  clear
+  855  lc
+  856  ls
+  857  nano vkConfig.py
+  858  clear
+  859  nano vkConfig.py
+  860  python3.9 vkConfig.py
+  861  clear
+  862  python3.9 vkConfig.py
+  863  clear
+  864  python3.9 vkConfig.py
+  865  clear
+  866  python3.9 vkConfig.py
+  867  clear
+  868  exit
+  869  cd freelancebot/server
+  870  source venv/bin/activate
+  871  clear && python3.9 main.py
+  872  cd freelancebot/server
+  873  source venv/bin/activate
+  874  clear
+  875  cd freelancebot/server
+  876  source venv/bin/activate
+  877  cd
+  878  exit
+  879  mongo
+  880  clear
+  881  mongo
+  882  clear
+  883  cd test
+  884  ls
+  885  cd application
+  886  ls
+  887  cd ~/test
+  888  rm -R application
+  889  ls
+  890  rm telegraph_api
+  891  rm telegraph_api.py
+  892  ls
+  893  rm -R application
+  894  ls
+  895  mongo
+  896  mongo
+  897  mongo 
+  898  mongo
+  899  exit
+  900  mongo
+  901  clear
+  902  mongo
+  903  monog
+  904  mongo
+  905  netstat -tulpn
+  906  kill 123733
+  907  netstat -tulpn
+  908  mongo
+  909  netstat -tulpn
+  910  kill 139979
+  911  kill 138979
+  912  netstat -tulpn
+  913  clear
+  914  mongo
+  915  netstat -tulpn
+  916  exit
+  917  mongo
+  918  clear
+  919  mongo
+  920  exit
+  921  mongo
+  922  netstat -tulpn
+  923  sudo certbot renew --dryrun
+  924  sudo certbot renew --force-renewal
+  925  netstat -tulpn
+  926  clear
+  927  mongo
+  928  clear
+  929  mongo
+  930  clear
+  931  netstat -tulpn
+  932  mongo
+  933  clear
+  934  whoiam
+  935  whoami
+  936  hostname
+  937  ls
+  938  cmkdir os_lab
+  939  mkdir os_lab
+  940  ls
+  941  cd os_lab
+  942  clear
+  943  equal 1 1
+  944  equalx 1 1
+  945  clear
+  946  python3.9
+  947  echo s
+  948  echo string
+  949  man echo
+  950  nano test.py
+  951  cat test.py
+  952  python3.9 test.py
+  953  head test.py
+  954  head -n 0 test.py
+  955  less test.py
+  956  cat test.py
+  957  clear
+  958  grep print test.py
+  959  pwd
+  960  gcc -v
+  961  nano test.c
+  962  ls
+  963  gcc test.c -o test.out
+  964  nano test.c
+  965  gcc test.c -o test.out
+  966  ls
+  967  ./test.out
+  968  nano test.c
+  969  clear
+  970  gcc test.c -o test.out
+  971  ./test.out
+  972  ls sort -r tail -n 3
+  973  cd
+  974  ls os_lab -r tail -n 3
+  975  clear
+  976  cd os_lab
+  977  ls os_lab -r tail -n 3
+  978  ls | os_lab -r | tail -n 3
+  979  ls | sort -r | tail -n 3
+  980  clear
+  981  pwd
+  982  ls /home/admin-of-bot
+  983  echo /home/admin-of-bot ls
+  984  echo /home/admin-of-bot | ls
+  985  rm test.out
+  986  mkdir week1
+  987  ls
+  988  cd week1
+  989  grep gcc /usr/bin > ex1.txt
+  990  grep gcc ~/usr/bin > ex1.txt
+  991  grep gcc ~/admin-of-bot/bin > ex1.txt
+  992  pwd
+  993  sudo grep gcc /usr/bin > ex1.txt
+  994  ls
+  995  ls --help
+  996  clear
+  997  find ~/ -type f -printf"%f\n"
+  998  find ~/
+  999  ls > r.txt
+ 1000  find ~/os_lab
+ 1001  sudo find /usr/bin | grep gcc > ex1.txt
+ 1002  ls
+ 1003  rm r.txt
+ 1004  ls
+ 1005  nano ex1.txt
+ 1006  clear
+ 1007  history > ex2.txt

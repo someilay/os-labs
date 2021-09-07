@@ -82,6 +82,7 @@ typedef struct node Node;
 
 Node* createNode(int value){
 	Node* new_node = (Node*)malloc(sizeof(Node));
+	new_node->next = NULL;
 	new_node->value = value;
 	return new_node;
 }

@@ -105,6 +105,7 @@ int main(){
 	printf("==================================================================================================================================\n");
 	printf("	Process id	  Arrival Time	      Burst Time        Completion Time        Waiting Time        Turnaround Time        \n");
 	sort_table_by_two_columns(table, ROWS, ARRIVAL_TIME_I, BURST_TIME_I);
+	c_time = table[0][ARRIVAL_TIME_I];
 
 	for (int i = 0; i < ROWS; i++){
 		c_time += table[i][BURST_TIME_I];

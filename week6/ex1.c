@@ -2,7 +2,10 @@
 #include <stdlib.h>
 
 
-const int ROWS = 4;
+const int AMOUNT_OF_PROCESSES = 4;
+
+
+const int ROWS = AMOUNT_OF_PROCESSES;
 const int COLUMNS = 6;
 const int PROCESS_ID_I = 0;
 const int ARRIVAL_TIME_I = 1;
@@ -76,7 +79,7 @@ int main(){
 	printf("					                     Statistics			                                          \n");
 	printf("==================================================================================================================================\n");
 	printf("	Process id	  Arrival Time	      Burst Time        Completion Time        Waiting Time        Turnaround Time        \n");
-	sort_table(table, ROWS, 1);
+	sort_table(table, ROWS, ARRIVAL_TIME_I);
 
 	for (int i = 0; i < ROWS; i++){
 		table[i][WAITING_TIME_I] = table[0][ARRIVAL_TIME_I] - table[i][ARRIVAL_TIME_I];

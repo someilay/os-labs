@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   2400	    648	      8	   3056	    bf0	ex2.out

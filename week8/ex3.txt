@@ -1,0 +1,3 @@
+Line from monitor: 19579 admin-o+  20   0  463300 461824   1132 S  31.2  46.6   0:00.39 ex2.out
+When ex2.out reaches 100% of memory, it's killed by VDS. On average program uses ~40% of the CPU.
+

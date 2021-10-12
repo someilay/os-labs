@@ -1,0 +1,1 @@
+Physical addresses are closely conected with physical memory. It directly points to a physical address. Opposite, virtual addresses point to the virtual storage that can be viewed by the process. 

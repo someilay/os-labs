@@ -1,1 +1,4 @@
-1
+8 KB = 2^13 bits => Offset equals to 13.
+Address size 16 bits => Number of entries = 2^(total length - offset) = 2^(16-13) = 2^3 = 8.
+Answer: Number of entries = 8
+

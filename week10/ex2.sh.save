@@ -1,0 +1,14 @@
+if [ ! -d "week01" ]; then
+	mkdir week01
+fi
+
+echo Ilia Milioshin > week01/file.txt
+
+if [ ! -d "week10" ]; then
+        mkdir week10
+fi
+
+link week01/file.txt week10/_ex2.txt
+p = ls -i week01/file.txt
+find week01/file.txt -inum inodenumber > ex2.txt
+find week01/file.txt -inum inodenumber -exec rm {} \; >> ex2.txt

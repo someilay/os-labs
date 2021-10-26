@@ -1,0 +1,6 @@
+-rw-rw-rw- 1 admin-of-bot admin-of-bot 15 Oct 26 20:31 _ex3.txt
+-rwxr--rwx 1 admin-of-bot admin-of-bot 15 Oct 26 20:31 _ex3.txt
+-rwxrwxrwx 1 admin-of-bot admin-of-bot 15 Oct 26 20:31 _ex3.txt
+1) 660 stands for read and write permissions for user and group, no permissions for other
+2) 775 stands for all permissions for user and group, read and execution for other
+3) 777 stands for all permissions for everyone

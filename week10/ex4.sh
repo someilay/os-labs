@@ -13,3 +13,5 @@ fi
 if [ ! -e "tmp/link1" ]; then
 	ln tmp/file1 tmp/link1
 fi
+
+./ex4.out > ex4.txt

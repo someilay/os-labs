@@ -1,0 +1,37 @@
+Output of ex2.out when root is lofsdisk:
+Entry: lost+found
+Entry: ..
+Entry: ex2.out
+Entry: file2
+Entry: lib64
+Entry: bin
+Entry: .
+Entry: lib
+Entry: file1
+
+Output of ex2.out when root is /
+Entry: var
+Entry: ..
+Entry: usr
+Entry: snap
+Entry: dev
+Entry: bin
+Entry: run
+Entry: root
+Entry: media
+Entry: lib32
+Entry: etc
+Entry: .
+Entry: mnt
+Entry: lost+found
+Entry: tmp
+Entry: proc
+Entry: libx32
+Entry: sys
+Entry: home
+Entry: boot
+Entry: opt
+Entry: srv
+Entry: sbin
+Entry: lib64
+Entry: lib

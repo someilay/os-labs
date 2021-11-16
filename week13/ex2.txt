@@ -1,0 +1,17 @@
+Deadlock recovery:
+	Advantages:
+		There is no scheduling of processes. OS allows them to take resources freely.
+	Disadvantages:
+		Any process can die unexpectedly due to deadlock occurrence.
+		There is simultaneously analysis of processes’ workflow
+Deadlock prevention:
+	Advantages:
+		Deadlocks are impossible.
+	Disadvantages:
+		It’s not effective.
+Deadlock avoidance:
+	Advantages:
+		Deadlocks are rare.
+	Disadvantages:
+		It’s not always possible to schedule processes for avoiding deadlock
+
